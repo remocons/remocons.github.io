@@ -1,9 +1,9 @@
 # congtrol 
 
 
-## congtrol's open source
+## open source
 
-콩트롤 오픈소스 라이브러리 목록입니다. 사용이 자유로운 ISC 라이센스입니다.
+콩트롤 오픈소스 라이브러리 목록입니다. 
 
 ## meta-buffer-pack
 ```
