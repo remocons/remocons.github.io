@@ -11,9 +11,7 @@ npm i meta-buffer-pack
 ```
 [ [npm](https://www.npmjs.com/package/meta-buffer-pack) 
 | [github](https://github.com/congtrol/meta-buffer-pack)
-| [online demo IIFE](https://congtrol.github.io/meta-buffer-pack/example/index-iife.html)
-| [online demo ESM ](https://congtrol.github.io/meta-buffer-pack/example/index-esm.html) ]
-
+| [online demo](https://congtrol.github.io/meta-buffer-pack/example/index.html)
 
 Node.js 와 Browser 에서 공통으로 사용 가능한 버퍼 패키징 도구입니다. 
 다양한 크기와 타입의 바이트 정보들을 하나의 버퍼 구조로 합쳐주고, 원래의 자료형으로 자동 복원해주는 기능이 있습니다.
