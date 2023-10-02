@@ -1,11 +1,11 @@
-# congtrol 
+# remocons 
 
-## 콩트롤 블로그
-콩트롤 공개 라이브러리 세부 정보는 블로그를 참고하시기 바랍니다.
-[https://blog.congtrol.com](https://blog.congtrol.com)
+## 리모콘 블로그
+리모콘 공개 라이브러리 세부 정보는 블로그를 참고하시기 바랍니다.
+[https://blog.remocon.kr](https://blog.remocon.kr)
 
 
-## 콩트롤 오픈소스 라이브러리 목록입니다. 
+## 리모콘 오픈소스 라이브러리 목록입니다. 
 
 
 ## Remote Signal
@@ -26,15 +26,15 @@
 - 서버간 보안통신
 
 4. 저장소
-- Javascript: `remote-signal` [ [github](https://github.com/congtrol/remote-signal) | [npm](https://www.npmjs.com/package/remote-signal) ]
+- Javascript: `remote-signal` [ [github](https://github.com/remocons/remote-signal) | [npm](https://www.npmjs.com/package/remote-signal) ]
   - Node.js server
   - Node.js client ( WebSocket, CongSocket)
   - Web Browser client( WebSocket)
 - Arduino client: 
-  - `remote-signal-arduino` [ [github](https://github.com/congtrol/remote-signal-arduino) ]
+  - `remote-signal-arduino` [ [github](https://github.com/remocons/remote-signal-arduino) ]
   - or use Arduino Library Manager: `RemoteSignal`
 - CLI program 
-  - `remocon` [ [github](https://github.com/congtrol/remocon) | [npm](https://www.npmjs.com/package/remocon) ]
+  - `remocon` [ [github](https://github.com/remocons/remocon) | [npm](https://www.npmjs.com/package/remocon) ]
   - install: `sudo npm i -g remocon`
   - support mac, linux and windows.
   - server and client
@@ -45,7 +45,7 @@
 리모콘(리모트콘솔)은 리모트시그널(Remote Signal) 서버와 클라이언트를 실행할 수 있는 CLI 프로그램입니다. NodeJS 를 지원하는 맥, 윈도우, 리눅스 모두에 설치 가능합니다.
 
 
-- 저장소 `remocon` [ [github](https://github.com/congtrol/remocon) | [npm](https://www.npmjs.com/package/remocon) ]
+- 저장소 `remocon` [ [github](https://github.com/remocons/remocon) | [npm](https://www.npmjs.com/package/remocon) ]
 - install: `sudo npm i -g remocon`
 - support mac, linux and windows.
 - server and client
@@ -56,8 +56,8 @@
 npm i meta-buffer-pack
 ```
 [ [npm](https://www.npmjs.com/package/meta-buffer-pack) 
-| [github](https://github.com/congtrol/meta-buffer-pack)
-| [online demo](https://congtrol.github.io/meta-buffer-pack/example/index.html)
+| [github](https://github.com/remocons/meta-buffer-pack)
+| [online demo](https://remocons.github.io/meta-buffer-pack/example/index.html)
 
 Node.js 와 Browser 에서 공통으로 사용 가능한 버퍼 패키징 도구입니다. 
 다양한 크기와 타입의 바이트 정보들을 하나의 버퍼 구조로 합쳐주고, 원래의 자료형으로 자동 복원해주는 기능이 있습니다.
@@ -77,7 +77,7 @@ MB: 메타 버퍼란?
 npm i file-tool
 ```
 [ [npm](https://www.npmjs.com/package/file-tool) 
-| [github](https://github.com/congtrol/file-tool)]
+| [github](https://github.com/remocons/file-tool)]
 
 Node.js 와 Browser 는 File 사용법이 다릅니다. file-tool은  Node.js 환경에서 Browser 호환 Web APIs File 인터페이스를 제공하며, 몇가지 암호화 지원 기능을 추가했습니다.
 
@@ -93,8 +93,8 @@ Node.js 와 Browser 는 File 사용법이 다릅니다. file-tool은  Node.js �
 npm i otpus
 ```
 [ [npm](https://www.npmjs.com/package/otpus) 
-| [github](https://github.com/congtrol/otpus)
-| [online demo ](https://congtrol.github.io/otpus/example/index.html) ]
+| [github](https://github.com/remocons/otpus)
+| [online demo ](https://remocons.github.io/otpus/example/index.html) ]
 
 이미 Node.js 와 Browser 에 암호화 구현을 위한 API가 포함되어있습니다. 또한 오픈소스 암호 알고리즘도 공개되어있습니다. 하지만 실제 암호화 구현시엔 여러가지 추가 프로세스가 필요합니다. 이러한 과정을 일반화하여 쉽게 바로 사용가능한 범용 암호화 함수를 제공합니다.
 
